@@ -1,7 +1,14 @@
 /*variables*/
 :root {
     --primary: #FFC636;
-    --secondary: #0A0B5B;}
+    --secondary: #0A0B5B;
+    --thirty:#222;
+    --litli-white:rgba(255,255,255,0.05);
+    --litle-black:rgba(0, 0, 0, 0.6);
+    --gray:#9893D8;
+    --claire: #f2f2f2;
+}
+
 /*reset*/
 body,p,a,ul,li{
     margin: 0;
@@ -22,9 +29,25 @@ body{
     background: none;
     border: 2px solid var(--primary);
     color:var(--primary);
-    padding:6px 12ox;
+    padding:20px 12ox;
     border-radius: 20px;
     text-transform: uppercase;
+    box-shadow: 1px 2px 3px var(--litle-black);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover{
+    color:var(--thirty);
+    background-color: var(--primary);
+}
+
+input,textarea{
+    background-color:var(--litli-white);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid var(--gray);
+    color:var(--claire);
 }
 
 /*fonts*/
