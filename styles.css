@@ -1,0 +1,47 @@
+/*variables*/
+:root {
+    --primary: #FFC636;
+    --secondary: #0A0B5B;}
+/*reset*/
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;}
+
+li{
+    list-style-type: none;
+}
+
+/*base styles*/
+body{
+    background-color: var(--secondary);
+    overflow-x: hidden;
+}
+
+.button{
+    background: none;
+    border: 2px solid var(--primary);
+    color:var(--primary);
+    padding:6px 12ox;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/*fonts*/
+
+/*mobile styles*/
+
+/*samll tablet styles*/
+@media screen and (min-width: 620px){
+
+}
+
+/*large tablets & laptops styles*/
+@media screen and (min-width: 960px) {
+
+}
+
+/*desctop styles*/
+@media screen and (min-width: 1200px) {
+
+}
