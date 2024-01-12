@@ -164,7 +164,10 @@ padding: 20px;
     text-align: center;
 }
 
-.projects
+.projects a{
+    grid-column: 1/9;
+    margin: 20px 0;
+}
 
 /*samll tablet styles*/
 @media screen and (min-width: 620px){
